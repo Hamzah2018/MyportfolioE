@@ -413,8 +413,9 @@ position: relative;
 top:1px; 
 
 }
-.protfolio .container{
-}
+/* .protfolio .container{
+} */
+/* skilles  */
 .skilles{
     position: relative;
     bottom: 300px;
@@ -427,6 +428,171 @@ top:1px;
     line-height: 30px;
     box-shadow: 2px 2px 2px 2px #04639b;
 }
+/* Preves works */
+.Prevous-work input{
+    display: none;
+}
+.Prevous-work .container{
+    width:100%;
+    text-align:center;
+}
+.Prevous-work h1{
+    font-weight: normal;
+    font-size: 35px;
+    position: relative;
+    margin: 40px 0;
+}
+/* .Prevous-work h1::before{
+    content:"";
+    position: absolute;
+    width:100px;
+    height:3px;
+    background-color: red;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50);
+    transform: translateY(-50);
+    margin:40px 0;
+    animation: animate 4s linear infinite;
+} */
+/* @keyframes animate{
+    0%{
+        width: 100px;
+    }
+    50%{
+        width:200px;
+    }
+    100%{
+        width:100px;
+    }
+} */
+.Prevous-work .top-cotent{
+    background-color:rgb(243, 240, 240);
+    width: 90%;
+    margin: 0 auto 20px auto;
+    height:60px;
+    display: flex;
+    align-items:center;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px lightgray;
+}
+.Prevous-work h3{
+    height:100%;
+    background-color:lightgray;
+    line-height:60px;
+    padding: 0 50px;
+    color: white;
+}
+.Prevous-work label{
+    display: inline-block;
+    height: 100%;
+    padding: 0 5px;
+    margin: 0 30px;
+    line-height: 60px;
+    font-size: 18px;
+    color: gray;
+    cursor: pointer;
+    transition: .5s;
+}
+.Prevous-work label:hover{
+    color: lightgray;
+}
+
+.Prevous-work .photo-gallery{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+} 
+.Prevous-work .proj {
+    position: relative;
+    height: 230px;
+    border-radius:10px;
+    box-shadow:3px 3px 5px lightgray;
+    cursor:pointer;
+    transition: .5s;
+}
+.Prevous-work .proj img{
+    width: 100%;
+    height: 100%;
+    border-radius:10px;
+    transition:.3s;
+}
+.Prevous-work .proj::before{
+    content: "Created by Al-Hamzah";
+    color: #aaa;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    font-weight:bolder;
+    width: 100%;
+    margin-top: -80px;
+    opacity:0.3;
+    transition: .3s;
+    transition-delay: .2s;
+}
+.Prevous-work .proj:after{
+    content: "";
+    position: absolute;
+    width:100%;
+    bottom:0;
+    left:0;
+    border-radius: 10px;
+    height:100%;
+    background-color: rgba(0,0,0,.4);
+    transition: .3s;
+}
+.Prevous-work .proj:hover::after{
+    height:100%;
+}
+.Prevous-work .proj:hover::before{
+    margin-top:0;
+    opacity:1;
+}
+.Prevous-work #check1:checked ~ .container .photo-gallery .proj{
+opacity: 1;
+transform:scale(1);
+position: relative;
+transition: .5s;
+}
+.Prevous-work #check1:checked ~ .container .photo-gallery .Accouting
+{
+    opacity: 1;
+    transform:scale(1);
+    position: absolute;
+    transition: .5s;
+}
+.Prevous-work #check1:checked ~ .container .photo-gallery .Assurnace {
+    opacity: 1;
+    transform:scale(1);
+    position: absolute;
+    transition: .5s;
+}
+.Prevous-work #check2:checked ~ .container .photo-gallery .website{
+    opacity: 1;
+    transform:scale(1);
+    position: relative;
+    transition: .5s;
+    }
+    .Prevous-work #check3:checked ~ .container .photo-gallery .website2{
+        opacity: 1;
+        transform:scale(1);
+        position: absolute;
+        transition: .5s;
+    }
+    .Prevous-work #check4:checked ~ .container .photo-gallery .mobile {
+        opacity: 1;
+        transform:scale(1);
+        position: absolute;
+        transition: .5s;
+    }
+
+
+
+/* contact us section */
 .contact-us{
     color:var(--main-color);
     background-color: var(--un-transparent-color);
@@ -452,6 +618,7 @@ top:1px;
     /* border-radius: 15px; */
     background-color: var(--main-color);
 }
+
 /* Contact us */
 
 /* End Design */
