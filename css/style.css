@@ -444,7 +444,7 @@ top:1px;
     border: 3px solid var(--main-color);
 }
 @media  (min-width: 767px){
-    .skilles{
+    .contact-us{
     margin-top: -250px;
     }
 }
