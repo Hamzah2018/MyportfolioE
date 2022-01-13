@@ -11,19 +11,22 @@
     <body id="body">
       <div class="conainer-change-color" onchange="ChangeColor(ChangeColor())">
     <select id ="selectColor">
-        <option value="#274664">Light</option>
+        <option value="">Light</option>
         <option value="#0d1831">Dark</option>
     </select>
 </div>
         <form name="regiset" method="post" onsubmit="return validFrom()">
             <fieldset>
+                
+
+
                 <legend>Personal Information</legend>
                 <label>User Name</label>
-                <input type="text" name="username">
+                <input type="text" name="username" id = "username">
                 <label>E-mail</label>
-                <input type="email" name="email">
+                <input type="email" name="email" id = "email">
                 <label>Password</label>
-                <input type="password" name="password">
+                <input type="password" name="password" id = "password">
                 <label>age</label>
                 <select name="Age" id="age">
                     <option value="over">Over 18</option>
