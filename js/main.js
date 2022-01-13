@@ -23,8 +23,8 @@ function checkInputs() {
 const usernameValue = username.value
 const emailValue = email.value
 const passwordValue = password.value
-const password2Value = password.
-}
+const password2Value = password2.vaule;
+} 
 
 
 function validFrom(){
