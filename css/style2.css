@@ -63,3 +63,16 @@ button{
 #selectColor{
     border-radius: 8px;
 }
+form-control.erre input{
+    border-color: #2ecc71;
+    }
+form-control.error input{
+    border-color: #e74c3c;
+    }
+/* form button{
+    background-color:#8e44ad;
+    border: 2px solid #8344ad;
+    color:#fff;
+    display:block;
+    width:100%;
+    } */
