@@ -3,6 +3,8 @@
 :root{
     --main-color:#1955fa;
     --sub-color:#19c8fa;
+    --dark-color:#0d1831;
+    --light-color:#274664;
     --transparent-color: rgba(45, 37, 146, 0.7);
     --un-transparent-color: rgba(24, 15, 143);
     /* --transparent-color: rgb(15 116 143 / 70%); */
@@ -17,7 +19,7 @@
         margin: 0;
     }
    body{
-    background-color: var(--sub-color);
+    background-color:var(--light-color);
    }
     /* body{
         font-family: Arial, Helvetica, sans-serif; } */
@@ -26,6 +28,7 @@
         background-color: var(--main-color);
         width: 100px;
         margin:10px 40px;
+        border-radius: 5px;
          /* display: flex;
          justify-content: space-evenly; */
     }
@@ -55,4 +58,8 @@ button{
     background-color:var(--sub-color);
     padding: 5px 10px;
     border-radius: 5px;
+
+}
+#selectColor{
+    border-radius: 8px;
 }
