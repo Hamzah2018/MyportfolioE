@@ -20,17 +20,25 @@ checkInputs();
 });
 
 function checkInputs() {
-const usernameValue = username.value
-const emailValue = email.value
-const passwordValue = password.value
-const password2Value = password2.vaule;
+const usernameValue = username.value.trem();
+const emailValue = email.value.trem();
+const passwordValue = password.value.trem();
+const password2Value = password2.vaule.trem();;
+if(usernameVlaue === ''){
+    setErrorFor(username, 'Username cannot be blank')
+    }
+    else{
+    setSuccessFor(username)
+    }
+    
+
 } 
 
 
-function validFrom(){
-    var ageValid = document.getElementById("age").value;
-    if(ageValid == less){
-        alert("You are Child You can't eneter our website!");
-        return flase;
-    } 
-}
+// function validFrom(){
+//     var ageValid = document.getElementById("age").value;
+//     if(ageValid == less){
+//         alert("You are Child You can't eneter our website!");
+//         return flase;
+//     } 
+// }
