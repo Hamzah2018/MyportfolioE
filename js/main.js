@@ -31,8 +31,12 @@ if(usernameVlaue === ''){
     setSuccessFor(username)
     }
     
-
 } 
+function setErrorFor(input, message){
+    const formControl = input.parentElement;// .form-control
+    const small = fromControl.querySelector('small');
+    }
+    
 
 
 // function validFrom(){
