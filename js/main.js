@@ -8,7 +8,20 @@ let btnAllowed = document.getElementById('btn-allowed');
 let checkIcon = document.getElementById('check-icon');
 let exclamIcon = document.getElementById('exclam-icon');
 let errorMassge = document.getElementById('errormassage');
-
+let trunDark = document.getElementById('trun-dark');
+let bodyB = document.getElementById('body');
+let headB =document.getElementById('header');
+trunDark.addEventListener('click',(e) =>{
+    e.preventDefault();
+    if(bodyB.style.backgroundColor && headB.style.backgroundColor == "white" ){
+     headB.style.backgroundColor ="rgb(90, 90, 90)";
+    bodyB.style.backgroundColor ="rgb(90, 90, 90)";
+    }else{
+        headB.style.backgroundColor ="white";
+        bodyB.style.backgroundColor ="white";
+    }
+    }
+)
 
 
 
