@@ -28,7 +28,7 @@ trunDark.addEventListener('click',(e) =>{
 btnAllowed.addEventListener('click',(e) =>{
     e.preventDefault();
         //    preventDefault;
-        ValidationForm.style.visibility ="hidden";
+        ValidationForm.style.visibility ="hئidden";
         checkIcon.style.visibility ="hidden";
         exclamIcon.style.visibility ="hidden";
         errorMassge.style.visibility ="hidden";
