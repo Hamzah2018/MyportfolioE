@@ -102,7 +102,6 @@ ul{
     color:#777;
 }
 .download-cv{
-
     z-index: 5;
     position: fixed;
     top: 10px;
@@ -111,7 +110,7 @@ ul{
 }
 @media (max-width:767px){
     .download-cv{
-        top: 95px;
+        top: 100px;
     }
 }
 /* End Component  */
