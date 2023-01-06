@@ -318,24 +318,28 @@ header nav .form i{
         display: none;
     }
 }
-.landing .fa-angle-down{
+ .download-cv{
     /* right: 30px; */
     /* transform:skewY(6deg); */
     /* margin-bottom: -75px; */
-    position: absolute;
-    left:calc(49%  + 2px);; 
-    top: 100%;
-    top: calc(100% + 50px);
-    transform: translateY(-53%);
+    /* transform:skewY(6deg); */
+    z-index: 5;
+    position: fixed;
+    left:10px;
+    top: 10px;
+
+    /* top: 100%; */
+    /* top: calc(100% + 50px); */
+    /* transform: translateY(-53%); */
     color: var(--main-color);
     /* background-color: blue; */
     /* bottom: 100px; */
 }
-.landing .fa-angle-left{
+/* .landing .fa-angle-left{
     left:30px;
     transform:skewY(6deg);
     margin-top: -75px;
-}
+} */
 .landing .bullets{
     position: absolute;
     left:47%;
