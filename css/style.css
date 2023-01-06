@@ -101,6 +101,19 @@ ul{
     line-height: 2;
     color:#777;
 }
+.download-cv{
+
+    z-index: 5;
+    position: fixed;
+    top: 10px;
+    left:10px;
+    color: var(--main-color);
+}
+@media (max-width:767px){
+    .download-cv{
+        top: 95px;
+    }
+}
 /* End Component  */
 /* Star Header  */
 header{
@@ -318,23 +331,7 @@ header nav .form i{
         display: none;
     }
 }
- .download-cv{
-    /* right: 30px; */
-    /* transform:skewY(6deg); */
-    /* margin-bottom: -75px; */
-    /* transform:skewY(6deg); */
-    z-index: 5;
-    position: fixed;
-    left:10px;
-    top: 10px;
 
-    /* top: 100%; */
-    /* top: calc(100% + 50px); */
-    /* transform: translateY(-53%); */
-    color: var(--main-color);
-    /* background-color: blue; */
-    /* bottom: 100px; */
-}
 /* .landing .fa-angle-left{
     left:30px;
     transform:skewY(6deg);
