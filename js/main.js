@@ -14,8 +14,8 @@ let headB =document.getElementById('header');
 trunDark.addEventListener('click',(e) =>{
     e.preventDefault();
     if(bodyB.style.backgroundColor && headB.style.backgroundColor == "white" ){
-     headB.style.backgroundColor ="rgb(90, 90, 90)";
-    bodyB.style.backgroundColor ="rgb(90, 90, 90)";
+     headB.style.backgroundColor ="#0B2035";
+    bodyB.style.backgroundColor ="#0B2035";
     }else{
         headB.style.backgroundColor ="white";
         bodyB.style.backgroundColor ="white";
@@ -28,7 +28,7 @@ trunDark.addEventListener('click',(e) =>{
 btnAllowed.addEventListener('click',(e) =>{
     e.preventDefault();
         //    preventDefault;
-        ValidationForm.style.visibility ="hئidden";
+        ValidationForm.style.visibility ="hidden";
         checkIcon.style.visibility ="hidden";
         exclamIcon.style.visibility ="hidden";
         errorMassge.style.visibility ="hidden";
